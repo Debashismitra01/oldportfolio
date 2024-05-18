@@ -1,0 +1,128 @@
+@font-face {
+    font-family: 'JMH Typewriter Black';
+    src: url('../assets/jmh_typewriter/JMH Typewriter-Black.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'JMH Typewriter Bold';
+    src: url('../assets/jmh_typewriter/JMH Typewriter-Bold.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'JMH Typewriter Thin';
+    src: url('../assets/jmh_typewriter/JMH Typewriter-Thin.otf') format('opentype');
+  }
+  
+  @font-face {
+    font-family: 'JMH Typewriter';
+    src: url('../assets/jmh_typewriter/JMH Typewriter.otf') format('opentype');
+  }
+  
+  *{
+    background-color: #333;
+    color: aliceblue;
+  }
+  
+  .Intro {
+    height: 100vh; /* Set the height of the Intro container to the full viewport height */
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; /* Center the content vertically */
+    position: relative; /* Required for absolute positioning of child elements */
+   /* background-image: url('../../../frontend/src/assets/background.jpg');*/
+  
+    background-size: cover;
+  }
+  
+  .left-container{
+    width: 60%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center; 
+    /*background-color: pink;*/
+  }
+
+  .right-container{
+    width: 40%;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /* Center the content horizontally */
+    align-items: center;
+   /* background-color: black;*/
+  }
+  
+  .text {
+    width:91%;
+    height: 20vh;
+    text-align: center; 
+     align-items: center;  /* Center the text horizontally */
+    padding: 20px; /* Add some padding around the text */
+    border-radius: 10px; /* Rounded corners for the text container */
+    transition: transform 0.2s ease; /* Smooth transition for slight movement */
+    user-select: none;
+   /* background-color: white;*/
+  }
+  
+  
+  .name {
+    color: turquoise; /* Dark color for the name */
+  }
+  
+  h1, h2, p {
+    margin: 10px 0; /* Add some spacing between elements */
+  }
+  .CV{
+    width: 100%;
+    display:flex;
+    justify-content: center; 
+    margin-top: 20px;
+  }
+
+  .Links{
+    margin-top: 5px;
+   }
+
+  .resume,.Icons{
+    background-image: linear-gradient(to right, #333, turquoise);
+    background-size: 250% 100%;
+    border: 1.5px solid turquoise;
+    background-position: left;
+    border-radius: 35px;
+    padding: 4px 10px 6px 10px;
+    margin-left: 10px;
+    text-decoration: none;
+    transition: background-position 1s ease-in-out;
+  }
+  .resume:hover{
+    background-position: right;
+    background-color: turquoise;
+    color: #333;
+    transition: 0.5s;
+  }
+
+  .Icons:hover{
+    background-position: right;
+    background-color: turquoise;
+    color: #333;
+    transition: 0.5s;
+   }
+  
+  .pic{
+    width: 80%;
+    height:50vh;
+  /*  background-color: blue;*/
+    background-image: url('../../../frontend/src/assets/dev1.webp');
+    background-size: cover;
+  }
+
+  .about{
+    width: 60%;
+    padding-left: 50px;
+  }
+
+  .Yel{
+    color:turquoise;
+    font-style: bold;
+  }
+
