@@ -29,7 +29,7 @@ function Intro() {
             {texts[index]}
         </div>
         <div className="CV">
-        <a className="resume" href="https://drive.google.com/uc?export=download&id=1vnWzlxnqqgdSazVLd9Mbh1EvpszLQvui" download="Javc">Download</a>
+        <a className="resume" href="https://drive.google.com/uc?export=download&id=1vnWzlxnqqgdSazVLd9Mbh1EvpsQvui" download="Javc">Download</a>
         <Links />
        </div>
       </div>
